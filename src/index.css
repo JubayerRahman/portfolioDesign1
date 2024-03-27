@@ -11,3 +11,9 @@ body{
 .specialFont{
   font-family: "Roboto Slab", serif;
 }
+
+.navBar .active{
+  background-color: #1B74E4;
+  color: white;
+  font-size: 100px;
+}

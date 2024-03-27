@@ -11,7 +11,7 @@ import { FaFilePdf } from "react-icons/fa";
 
 const ProfileSection = () => {
   return (
-    <div className="bg-white p-[10px] rounded-xl drop-shadow-lg flex items-center flex-col gap-5">
+    <div className="bg-white p-[10px] rounded-xl drop-shadow-lg flex items-center flex-col gap-5 w-[95vw] md:w-fit">
       <div className="flex flex-col items-center gap-2">
         <img className="h-[240px] w-[240px] rounded-md mt-[-50%] object-cover" src={image}/>
         <h1 className="specialFont text-[26px] font-[500] cursor-pointer">Jobayer Rahman Ohee</h1>
