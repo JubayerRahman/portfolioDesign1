@@ -2,6 +2,8 @@ import React from 'react'
 import UnivercialTitle from '../UnivercialTitle/UnivercialTitle'
 import { IoCodeSlash } from "react-icons/io5";
 import { FaWordpressSimple } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+
 
 
 const About = () => {
@@ -25,6 +27,13 @@ const About = () => {
           <div>
             <h1 className='text-[20px] leading-[30px] font-[500]'>WordPress Development</h1>
             <p className='text-[16px] font-[400] leading-[30px] text-gray-500'>I can also make websites using WordPress. It is a popular and powerful CMS and I love working with it.</p>
+          </div>
+        </div>
+        <div className='bg-defaultBg rounded-lg p-[20px] flex flex-col md:flex-row items-center gap-3 md:items-start'>
+          <h1 className='text-5xl text-secondary '><FaReact/></h1>
+          <div>
+            <h1 className='text-[20px] leading-[30px] font-[500]'>React Native</h1>
+            <p className='text-[16px] font-[400] leading-[30px] text-gray-500'>React native is a very powerful and user-friendly library to build cross-platform applications for Android and IOS I love it.</p>
           </div>
         </div>
       </div>

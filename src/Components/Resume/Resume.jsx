@@ -9,6 +9,8 @@ import { CiServer } from "react-icons/ci";
 import { VscTools } from "react-icons/vsc";
 import { TbUserCog } from "react-icons/tb";
 import { BsMotherboard } from "react-icons/bs";
+import { FaCode } from "react-icons/fa";
+
 
 
 
@@ -18,10 +20,21 @@ const Resume = () => {
   return (
     <div className='flex flex-col gap-5'>
       <UnivercialTitle title="Resume"/>
-      <h1 className='flex gap-2 items-center text-[26px] leading-[36px] font-[500]'> <span className='text-secondary text-5xl'><LuGraduationCap/></span> Education</h1>
-      <div className='flex flex-col md:flex-row gap-5 justify-evenly'>
-        <Educationbox startingYear="2019" endingYear="2023" name="Feni Polytechnic Institute" location="Feni, Bangladesh" subject="Diploma in Computer technology"/>
-        <Educationbox startingYear="2017" endingYear="2028" name="Hasan Ali Govt High School" location="Chandpur, Bangladesh" subject="secondary school certificate"/>
+      <div className='flex flex-col md:flex-row justify-between'>
+      <div className='md:w-[49%] mt-[20px]'>
+        <h1 className='flex gap-2 items-center text-[26px] leading-[36px] font-[500] mb-[10px]'> <span className='text-secondary text-5xl'><LuGraduationCap/></span> Education</h1>
+        <div className='flex flex-col gap-5 justify-evenly '>
+          <Educationbox startingYear="2019 " endingYear="2023" name="Feni Polytechnic Institute" location="Feni, Bangladesh" subject="Diploma in Computer technology"/>
+          <Educationbox startingYear="2017 " endingYear="2028" name="Hasan Ali Govt High School" location="Chandpur, Bangladesh" subject="secondary school certificate"/>
+        </div>
+      </div>
+      <div className='md:w-[49%] mt-[20px] '>
+        <h1 className='flex gap-2 items-center text-[26px] leading-[36px] font-[500] mb-[10px]'> <span className='text-secondary text-5xl'><FaCode/></span> Experience</h1>
+        <div className='flex flex-col gap-5 justify-evenly '>
+          <Educationbox startingYear="July, 2024 " endingYear="Present" name="Shabuj Global Education" location="Whitechapel, England" subject="React Native Developer (Internship)"/>
+          {/* <Educationbox startingYear="2017" endingYear="2028" name="Hasan Ali Govt High School" location="Chandpur, Bangladesh" subject="secondary school certificate"/> */}
+        </div>
+      </div>
       </div>
       <h1 className='flex gap-2 items-center text-[26px] leading-[36px] font-[500]'> <span className='text-secondary text-5xl'><TbBulb/></span> Skills</h1>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>

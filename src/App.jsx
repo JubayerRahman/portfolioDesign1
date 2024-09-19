@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-      <div className="w-full h-[40vh]"></div>
+      <div className="w-full h-[25vh]"></div>
       <div className="flex flex-col md:flex-row justify-evenly gap-10  items-center md:items-start min-h-[100vh]  pb-[25vh]">
     <ProfileSection/>
     <div className="flex flex-col-reverse md:flex-row justify-between gap-10 w-[95vw] md:w-[70%]">
