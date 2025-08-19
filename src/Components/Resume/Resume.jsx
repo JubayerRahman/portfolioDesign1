@@ -25,7 +25,7 @@ const Resume = () => {
         <h1 className='flex gap-2 items-center text-[26px] leading-[36px] font-[500] mb-[10px]'> <span className='text-secondary text-5xl'><LuGraduationCap/></span> Education</h1>
         <div className='flex flex-col gap-5 justify-evenly '>
           <Educationbox startingYear="2019 " endingYear="2023" name="Feni Polytechnic Institute" location="Feni, Bangladesh" subject="Diploma in Computer technology"/>
-          <Educationbox startingYear="2017 " endingYear="2028" name="Hasan Ali Govt High School" location="Chandpur, Bangladesh" subject="secondary school certificate"/>
+          <Educationbox startingYear="2017 " endingYear="2018" name="Hasan Ali Govt High School" location="Chandpur, Bangladesh" subject="secondary school certificate"/>
         </div>
       </div>
       <div className='md:w-[49%] mt-[20px] '>
