@@ -31,7 +31,8 @@ const Resume = () => {
       <div className='md:w-[49%] mt-[20px] '>
         <h1 className='flex gap-2 items-center text-[26px] leading-[36px] font-[500] mb-[10px]'> <span className='text-secondary text-5xl'><FaCode/></span> Experience</h1>
         <div className='flex flex-col gap-5 justify-evenly '>
-          <Educationbox startingYear="July, 2024 " endingYear="Present" name="Shabuj Global Education" location="Whitechapel, England" subject="React Native Developer (Internship)"/>
+          <Educationbox startingYear="August, 2025 " endingYear="Present" name="Shabuj Global Education" location="Whitechapel, England" subject="Cross-Platform Mobile Developer "/>
+          <Educationbox startingYear="July, 2024 " endingYear="July, 2025 (1 Year, 1 Month)" name="Shabuj Global Education" location="Whitechapel, England" subject="React Native Developer (Internship)"/>
           {/* <Educationbox startingYear="2017" endingYear="2028" name="Hasan Ali Govt High School" location="Chandpur, Bangladesh" subject="secondary school certificate"/> */}
         </div>
       </div>

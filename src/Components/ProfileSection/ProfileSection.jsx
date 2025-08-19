@@ -11,11 +11,11 @@ import { FaFilePdf } from "react-icons/fa";
 
 const ProfileSection = () => {
   return (
-    <div className="bg-white p-[10px] rounded-xl drop-shadow-lg flex items-center flex-col gap-5 w-[95vw] md:w-fit md:sticky top-25">
+    <div className="bg-white p-[10px] rounded-xl drop-shadow-lg flex items-center flex-col gap-5 w-[95vw] md:w-fit md:sticky top-[25vh]">
       <div className="flex flex-col items-center gap-2">
         <img className="h-[240px] w-[240px] rounded-md mt-[-50%] object-cover" src={image}/>
         <h1 className="specialFont text-[26px] font-[500] cursor-pointer">Jobayer Rahman Ohee</h1>
-        <h1 className="text-[16px] leading-[24px] font-[400] bg-defaultBg p-[10px] rounded-md">Web developer</h1>
+        <h1 className="text-[16px] leading-[24px] font-[400] bg-defaultBg p-[10px] rounded-md">Software Engineer</h1>
     </div>
         <div className="socials flex gap-4 justify-evenly">
             <a className="bg-defaultBg p-[10px] text-2xl hover:bg-secondary hover:text-white duration-[0.5s] ease-out rounded-md" href="https://twitter.com/jubayerr398" target="_blank">
@@ -69,7 +69,7 @@ const ProfileSection = () => {
         </div>
         </div>
         </div>
-        <a className="text-[18px] w-fit text-[white] leading-[24px] font-[400] bg-secondary p-[10px] rounded-md flex gap-2 items-center cursor-pointer mb-[25px]" href="https://drive.google.com/file/d/1JaPy4oWz-Y0Jl6iid-nd7eON0-oLN4WG/view?usp=drive_link" target="_blank"><FaFilePdf/> Resume</a>
+        <a className="text-[18px] w-fit text-[white] leading-[24px] font-[400] bg-secondary p-[10px] rounded-md flex gap-2 items-center cursor-pointer mb-[25px]" href="https://drive.google.com/file/d/1Pu0NdtN199tiJ6gxiMmDfp3V3zoLnCQK/view?usp=drive_link" target="_blank"><FaFilePdf/> Resume</a>
       </div>
   )
 }
